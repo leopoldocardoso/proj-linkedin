@@ -18,6 +18,7 @@ Após a criação(ou durante) da VPC precisamos criar roles para permitir nosso 
     - Configuração da role. Utilizar a role cluster-eks devido as suas permissões de administração do eks.
 - O eks leva entre 10 e 15 minutos para sua criação
 - Após a criação do eks, é necessário configurar os nodes na guia Compute - Add node group
+- Utilizei duas máquinas EC2 t3.xlarger
 - Ter atenção na role, adicionando a role ec2-eks-role, criada anteriormente
 - Escolher o tier das máquinas EC2
 - Escolher as subnets, já vem configuradas como default
