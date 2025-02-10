@@ -37,8 +37,8 @@ Para acessar o cluster necessário realizar a configuração do kubeconfig na m�
 
 ## 6 - Executando o Terraform
 
-- No diretório projeto, dentro do diretório terraform executar os seguintes comandos:
+- No diretório do projeto, dentro do diretório terraform executar os seguintes comandos:
     - terraform init: inicializar o terraform
-    - terraform validate: validar a sintaxe do terraform
+    - terraform validate: validar a sintaxe do terraform (Opcional)
     - terraform plan -out plan.out: planeja o que vai ser deployado e gera um arquivo de plano
     - terraform apply plan.out: aplica o que foi planejado realizando o deploy
